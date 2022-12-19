@@ -29,10 +29,10 @@ The training data can be found in [here](https://jazzomat.hfm-weimar.de/dbformat
 
 ## CycleGAN
 - Environment setting:
-python 3.6.13
-tensorflow 1.4.0
-numpy 1.19.5
-pretty_midi 0.2.8
+python 3.6.13,
+tensorflow 1.4.0,
+numpy 1.19.5,
+pretty_midi 0.2.8,
 pypianoroll 0.1.3
 
 first unzip CycleGAN.zip
