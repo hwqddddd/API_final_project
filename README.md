@@ -41,4 +41,4 @@ Our [jazz drum dataset](https://drive.google.com/drive/folders/1yZLWngJaPGHvzYkk
 Use the given dataset to train the Drum RNN model and generate the drum tracks. This drum track can be exported as a MIDI file.
 ### For Rhythm_based_drum_generation.ipynb:
 Use the given dataset to train the GrooVAE model. 
-Alternatively, use the [pre-trained checkpoints](https://drive.google.com/drive/folders/1dVZJJV39-RuQaWFAPgRLkGIJAmHTiKT6?usp=share_link), together the [piano audios](https://drive.google.com/drive/folders/1e5Em3_YSPlXW3_IEvppskGIqBFwzllTY?usp=share_link) to generate the drum beats. This drum track can be exported as a MIDI file.
+Alternatively, use the [pre-trained checkpoints](https://drive.google.com/drive/folders/1dVZJJV39-RuQaWFAPgRLkGIJAmHTiKT6?usp=share_link), together with the [piano audios](https://drive.google.com/drive/folders/1e5Em3_YSPlXW3_IEvppskGIqBFwzllTY?usp=share_link) to generate the drum beats. This drum track can be exported as a MIDI file.
