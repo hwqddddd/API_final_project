@@ -21,6 +21,8 @@ Besides, the piano part should be transformed to MP3 file, to generate drum. The
 ## RNN
 Download the RNN file, the upload it on the Colab, after changing the source data path in the code, check to connect the GPU, finally you can click 'run all' or press keyboard 'Ctrl+F9' to train the RNN model.
 
+The training data can be found in [here](https://jazzomat.hfm-weimar.de/dbformat/dboverview.html).
+
 ## CycleGAN
 first unzip CycleGAN.zip
 
