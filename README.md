@@ -4,6 +4,7 @@ In his project, we implement different methods for generating and converting the
 * CycleGAN: Model of CycleGAN, and training process.
 * Model_RNN.ipynb: The process of generating and training model RNN.
 * Model_VAE.ipynb: The process of generating and training model VAE.
+* Drums_RNN.ipynb: The process of generating and training model Drums_RNN, plus the generation of drum tracks using this model.
 
 
 ## music converter.ipynb
