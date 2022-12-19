@@ -32,3 +32,13 @@ copy datasets_cyclegan.zip into directory named "datasets" in CycleGAN and unzip
 
 ## Model_VAE.ipynb
 The file has the process of generating training dataset, creating and training model. We used 577 Jazz midi files to train VAE, the data can be found in [here](https://drive.google.com/file/d/1xksnOS46bODSO5KCXClWml62pFDMSVs2/view?usp=sharing). The saved VAE model can be found in [here](https://drive.google.com/drive/folders/1SxSvm-Sb2oyRVAC6BfBhctF5h8qmLsWc?usp=sharing).
+
+
+
+## Drum Beats
+Our jazz drum dataset is extracted from the Groove MIDI Dataset. 
+For Drums_RNN.ipynb:
+Use the given dataset to train the Drum RNN model and generate the drum tracks. This drum track can be exported as a MIDI file.
+For Rhythm_based_drum_generation.ipynb:
+Use the given dataset to train the GrooVAE model. 
+Alternatively, use the pre-trained checkpoints, together the piano audios to generate the drum beats. This drum track can be exported as a MIDI file.
