@@ -21,9 +21,9 @@ Besides, the piano part should be transformed to MP3 file, to generate drum. The
 And all the models, including two folders for VAE and RNN, and the checkpoint for Drum Beats Generation should be download before running.
 
 ## RNN
-Open file RNN, download the Model_RNN.ipynb file, the upload it on the Colab, after changing the source data path in the code, check to connect the GPU, finally you can click 'run all' or press keyboard 'Ctrl+F9' to train the RNN model.
+Open file RNN, download the Model_RNN.ipynb file, then upload it on the Colab, after changing the source data path in the code, check to connect the GPU, finally you can click the botton 'run all' or press keyboard 'Ctrl+F9' to train the RNN model.
 
-file model_RNN.zip is the trained RNN model.
+The file model_RNN.zip is the trained RNN model.
 
 The training data can be found in [here](https://jazzomat.hfm-weimar.de/dbformat/dboverview.html).
 
