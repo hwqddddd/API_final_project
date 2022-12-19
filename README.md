@@ -35,7 +35,7 @@ The file has the process of generating training dataset, creating and training m
 
 
 
-## Drum Beats
+## Drum Beats Generation
 Our [jazz drum dataset](https://drive.google.com/drive/folders/1yZLWngJaPGHvzYkk1-NpkQiJE5bJePuF?usp=share_link) is extracted from the Groove MIDI Dataset. 
 ### For Drums_RNN.ipynb:
 Use the given dataset to train the Drum RNN model and generate the drum tracks. This drum track can be exported as a MIDI file.
