@@ -28,13 +28,38 @@ The file model_RNN.zip is the trained RNN model.
 The training data can be found in [here](https://jazzomat.hfm-weimar.de/dbformat/dboverview.html).
 
 ## CycleGAN
+- Environment setting:
+python 3.6.13
+tensorflow 1.4.0
+numpy 1.19.5
+pretty_midi 0.2.8
+pypianoroll 0.1.3
+
 first unzip CycleGAN.zip
 
 We have run the model before, and you can directly go to directory named "test" and go to the bottom and in
 the "mid" directory you can directly listen to the original midi file and transferred midi file that model has transferred.
 
 If you want to train the model: 
-copy datasets_cyclegan.zip into directory named "datasets" in CycleGAN and unzip it and 
+copy datasets_cyclegan.zip into directory named "datasets" in CycleGAN and unzip it and then following the command as follow:
+- Train a CycleGAN model:
+```bash
+python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='cyclegan' --model='base' --sigma_d=0 --phase='train'
+```
+If you want to directly test the model we have trained before:
+download JC_J2JC_C_2022-12-05_base_0.0.zip from "https://drive.google.com/file/d/11ZSR0wVTu2PWjeZmd9KTl1UiIq_zPJkB/view?usp=sharing"
+to directory"checkpoints" in CycleGAN and unzip it. then run the test command as follow:
+- Test a CycleGAN model:
+```bash
+python main.py --dataset_A_dir='JC_C' --dataset_B_dir='JC_J' --type='cyclegan' --model='base' --sigma_d=0 --phase='test' --which_direction='AtoB'
+```
+After training, you can find sample midi in the directory named samples.
+After testing, you can browse in directory named test, Go all the way to the bottom folder, enter the mid folder, which contains the midi file of the 
+original test data(xxx_origin.mid) , the midi file used for the consistency loss calculation after the CycleGAN cycle(xxx_cycle.mid) and the final transferred 
+midi file (xxx_transfer.mid), we have run the test command, so you can also directly choose to enter the folder to play these midi files to see the effect of the model
+
+Note: This CycleGAN model is refer to a project in Github(https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer)
+
 
 ## Model_VAE.ipynb
 The file has the process of generating training dataset, creating and training model. We used 577 Jazz midi files to train VAE, the data can be found in [here](https://drive.google.com/file/d/1xksnOS46bODSO5KCXClWml62pFDMSVs2/view?usp=sharing). The [saved VAE model](https://drive.google.com/drive/folders/1SxSvm-Sb2oyRVAC6BfBhctF5h8qmLsWc?usp=sharing) can generate new midi file.
