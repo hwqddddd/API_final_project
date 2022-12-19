@@ -35,7 +35,7 @@ numpy 1.19.5,
 pretty_midi 0.2.8,
 pypianoroll 0.1.3
 
-first unzip CycleGAN.zip
+First unzip CycleGAN.zip
 
 We have run the model before, and you can directly go to directory named "test" and go to the bottom and in
 the "mid" directory you can directly listen to the original midi file and transferred midi file that model has transferred.
