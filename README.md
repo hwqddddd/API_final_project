@@ -41,7 +41,7 @@ We have run the model before, and you can directly go to directory named "test" 
 the "mid" directory you can directly listen to the original midi file and transferred midi file that model has transferred.
 
 If you want to train the model: 
-copy datasets_cyclegan.zip into directory named "datasets" in CycleGAN and unzip it and then following the command as follow:
+copy datasets_cyclegan.zip into directory named "datasets" in CycleGAN and unzip it and then run the command as follow:
 - Train a CycleGAN model:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='cyclegan' --model='base' --sigma_d=0 --phase='train'
@@ -56,7 +56,7 @@ python main.py --dataset_A_dir='JC_C' --dataset_B_dir='JC_J' --type='cyclegan' -
 After training, you can find sample midi in the directory named samples.
 After testing, you can browse in directory named test, Go all the way to the bottom folder, enter the mid folder, which contains the midi file of the 
 original test data(xxx_origin.mid) , the midi file used for the consistency loss calculation after the CycleGAN cycle(xxx_cycle.mid) and the final transferred 
-midi file (xxx_transfer.mid), we have run the test command, so you can also directly choose to enter the folder to play these midi files to see the effect of the model
+midi file (xxx_transfer.mid), we have already run the test, so you can also directly choose to enter the folder named "test/mid" to play these midi files to see the effect of the model.
 
 Note: This CycleGAN model is refer to a project in Github(https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer)
 
