@@ -5,6 +5,7 @@ In his project, we implement different methods for generating and converting the
 * Model_RNN.ipynb: The process of generating and training model RNN.
 * Model_VAE.ipynb: The process of generating and training model VAE.
 * Drums_RNN.ipynb: The process of generating and training model Drums_RNN, plus the generation of drum tracks using this model.
+* Rhythm_based_drum_generation.ipynb: The process of generating and training model GrooVAE, plus the generation of drum tracks based on detected rhythms.
 
 
 ## music converter.ipynb
