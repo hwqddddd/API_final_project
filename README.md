@@ -18,6 +18,9 @@ More specifically, the parameters should be modified at
 
 Besides, the piano part should be transformed to MP3 file, to generate drum. The path should also be modified at `audio = "PIANO_PART.mp3"`
 
+## RNN
+Download the RNN file, the upload it on the Colab, after changing the source data path in the code, check to connect the GPU, finally you can click 'run all' or press keyboard 'Ctrl+F9' to train the RNN model.
+
 ## CycleGAN
 first unzip CycleGAN.zip
 
