@@ -1,5 +1,5 @@
 # API_final_project
-In his project, we implement different methods for generating and converting the music style of the original music source. The technique we used is CycleGAN, RNN , VAE  and a few others provided by Magenta. So this project consists of the following components:
+In this project, we implement different methods for generating and converting the music style of the original music source. The technique we used is CycleGAN, RNN , VAE  and a few others provided by Magenta. So this project consists of the following components:
 * music converter.ipynb: Workflow for the entire project, combining all the models.
 * CycleGAN: Model of CycleGAN, and training process.
 * Model_RNN: Including the file of generating RNN model and the trained RNN model.
